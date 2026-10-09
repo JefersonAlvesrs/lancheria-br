@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0a09" />
+    <meta
+      name="description"
+      content="LANCHERIA BR: pastéis de carne durante a semana, bebidas geladas e frango inteiro assado com 10 polentas fritas aos domingos."
+    />
+    <title>LANCHERIA BR | Pastéis, bebidas e frango assado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para conteúdo</a>
+    <header class="header" id="inicio">
+      <div class="container nav-wrap">
+        <a class="brand" href="#inicio" aria-label="LANCHERIA BR, início"
+          ><span class="brand-icon" aria-hidden="true">🍺</span
+          ><span
+            ><span class="brand-title">LANCHERIA <strong>BR</strong></span
+            ><span class="brand-subtitle"
+              >PASTÉIS • BEBIDAS • FRANGO ASSADO</span
+            ></span
+          ></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav" id="nav-links" aria-label="Menu principal">
+          <a href="#inicio">Início</a><a href="#cardapio">Cardápio</a
+          ><a href="#frango">Frango assado</a><a href="#bebidas">Bebidas</a
+          ><a href="#sobre">Sobre</a><a href="#contato">Contato</a>
+        </nav>
+        <a
+          class="btn btn-red nav-cta js-whatsapp"
+          data-message="Olá! Gostaria de saber mais sobre a LANCHERIA BR."
+          href="#contato"
+          >◉ Falar no WhatsApp</a
+        >
+      </div>
+    </header>
+    <main id="conteudo">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">SABOR DE VERDADE • LANCHERIA BR</p>
+            <h1 id="hero-title">
+              BOM PASTEL,<br /><em>BEBIDA GELADA</em><br />E BOA COMPANHIA
+            </h1>
+            <p class="hero-description">
+              Pastéis de carne preparados com carinho, bebidas geladas e aquele
+              frango assado especial de domingo.
+            </p>
+            <div class="hero-highlights">
+              <div>
+                <span aria-hidden="true">🥟</span
+                ><span><b>PASTÉIS</b><small>DURANTE A SEMANA</small></span>
+              </div>
+              <div>
+                <span aria-hidden="true">🍺</span
+                ><span><b>BEBIDAS</b><small>SEMPRE GELADAS</small></span>
+              </div>
+              <div>
+                <span aria-hidden="true">🍗</span
+                ><span><b>FRANGO ASSADO</b><small>AOS DOMINGOS</small></span>
+              </div>
+            </div>
+            <a class="btn btn-red hero-btn" href="#cardapio"
+              >Conheça nosso cardápio <span aria-hidden="true">→</span></a
+            >
+          </div>
+          <div class="hero-photo">
+            <img
+              src="assets/hero-pasteis.jpg"
+              alt="Pastéis dourados de carne, imagem ilustrativa"
+            /><span class="photo-label">PASTEL DE CARNE <b>🥟</b></span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="feature-grid container"
+        id="cardapio"
+        aria-label="Especialidades"
+      >
+        <article class="feature-card pastel-card">
+          <div class="feature-content">
+            <span class="tag tag-gold">DURANTE A SEMANA</span>
+            <h2>PASTÉIS<br /><em>CASEIROS</em></h2>
+            <p>
+              O tradicional pastel de carne em formato de meia-lua. Recheio
+              preparado aqui, com aquele sabor que dá vontade de repetir.
+            </p>
+            <a
+              class="btn btn-red js-whatsapp"
+              data-message="Olá! Gostaria de saber mais sobre os pastéis de carne da LANCHERIA BR."
+              href="#contato"
+              >Pedir pelo WhatsApp <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <img
+            src="assets/pasteis.jpg"
+            alt="Pastel de carne crocante em formato de meia-lua, imagem ilustrativa"
+            loading="lazy"
+          />
+        </article>
+        <article class="feature-card chicken-card" id="frango">
+          <div class="feature-content">
+            <span class="tag tag-red">TODOS OS DOMINGOS</span>
+            <h2>FRANGO<br /><em>ASSADO</em></h2>
+            <ul class="feature-points">
+              <li>🍗 Frango inteiro assado</li>
+              <li>🍟 Acompanha 10 polentas fritas</li>
+            </ul>
+            <p>
+              O sabor especial do domingo para compartilhar com a família.
+              Reservas exclusivamente por telefone fixo.
+            </p>
+            <a class="btn btn-red" href="tel:+555432220183">
+              📞 Reservar frango assado
+            </a>
+          </div>
+          <img
+            src="assets/frango.jpg"
+            alt="Frango inteiro assado com polentas fritas, imagem ilustrativa"
+            loading="lazy"
+          />
+        </article>
+      </section>
+      <section class="drinks" id="bebidas">
+        <div class="container drinks-grid">
+          <div class="drinks-copy">
+            <span class="eyebrow">PRA ACOMPANHAR</span>
+            <h2>BEBIDAS<br /><em>SEMPRE GELADAS</em></h2>
+            <p>
+              Cervejas, refrigerantes e outras opções para acompanhar seu pastel
+              ou frango assado.
+            </p>
+          </div>
+          <img
+            src="assets/bebidas.jpg"
+            alt="Seleção ilustrativa de bebidas geladas; marcas e disponibilidade não confirmadas"
+            loading="lazy"
+          />
+        </div>
+      </section>
+      <section class="about container" id="sobre">
+        <span class="eyebrow">CONHEÇA A LANCHERIA BR</span>
+        <h2>COMIDA BOA, CLIMA DESCONTRAÍDO.</h2>
+        <p>
+          Durante a semana, o destaque é o pastel tradicional de carne. Aos
+          domingos, tem frango inteiro assado acompanhado de 10 polentas fritas.
+          Tudo isso em um ambiente de lancheria e bar de bairro.
+        </p>
+      </section>
+      <section class="contact-section" id="contato">
+        <div class="container contact-grid">
+          <article class="contact-panel">
+            <h3><span aria-hidden="true">📍</span> NOSSA LOCALIZAÇÃO</h3>
+            <p>Venha nos visitar! Estamos esperando.</p>
+            <div class="info-card">
+              <strong id="address-name">LANCHERIA BR</strong
+              ><span id="address-value">Endereço será informado em breve.</span
+              ><a
+                id="maps-link"
+                class="outline-link is-disabled"
+                href="#contato"
+                aria-disabled="true"
+                >Ver no Google Maps ↗</a
+              >
+            </div>
+          </article>
+          <article class="contact-panel">
+            <h3><span aria-hidden="true">◷</span> HORÁRIO DE FUNCIONAMENTO</h3>
+            <p>Confira nossos horários.</p>
+            <div class="hours">
+              <div>
+                <b>Segunda a sábado</b
+                ><span id="hours-week">Horários em breve</span>
+              </div>
+              <div>
+                <b>Domingo • Frango assado</b
+                ><span id="hours-sunday">Horários em breve</span>
+              </div>
+            </div>
+          </article>
+          <article class="contact-panel">
+            <h3><span aria-hidden="true">✆</span> FAÇA SEU PEDIDO</h3>
+            <p>
+              Fale conosco pelo WhatsApp para consultar disponibilidade e tirar
+              dúvidas.
+            </p>
+            <div id="telefone-frango" class="fixed-phone">
+              <b>🍗 Reservas de frango aos domingos</b
+              ><span>Somente por telefone fixo — (54) 3222-0183.</span>
+            </div>
+            <a
+              class="btn btn-green contact-btn js-whatsapp"
+              data-message="Olá! Gostaria de saber mais sobre a LANCHERIA BR."
+              href="#contato"
+              >✆ Falar no WhatsApp</a
+            ><small id="whatsapp-note"
+              >Botão demonstrativo: número ainda não configurado.</small
+            >
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <a class="brand" href="#inicio"
+          ><span class="brand-icon" aria-hidden="true">🍺</span
+          ><span
+            ><span class="brand-title">LANCHERIA <strong>BR</strong></span
+            ><span class="brand-subtitle"
+              >PASTÉIS • BEBIDAS • FRANGO ASSADO</span
+            ></span
+          ></a
+        >
+        <p>LANCHERIA BR • Boa comida, bebida gelada e bons momentos.</p>
+        <small
+          >Site demonstrativo • Imagens ilustrativas criadas com IA • ©
+          <span id="year"></span
+        ></small>
+      </div>
+    </footer>
+  </body>
+</html>
