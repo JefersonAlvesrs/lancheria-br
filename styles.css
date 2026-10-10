@@ -925,3 +925,26 @@ h2 em {
     font-size: 46px;
   }
 }
+
+@media (max-width: 800px) {
+  .drinks img {
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 800px) {
+  .about {
+    padding: 45px 20px;
+  }
+
+  .about p {
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+}

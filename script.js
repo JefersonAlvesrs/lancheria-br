@@ -44,3 +44,14 @@ document.querySelectorAll(".js-whatsapp").forEach((link) => {
 });
 document.getElementById("whatsapp-note").textContent =
   "WhatsApp de teste do responsável pelo protótipo. Reservas de frango: apenas telefone fixo.";
+
+  document.querySelectorAll('a[href="#topo"]').forEach((link) => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+
+    window.scrollTo({
+      top: 0,
+      behavior: "instant"
+    });
+  });
+});
