@@ -935,7 +935,7 @@ h2 em {
 
 html,
 body {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 @media (max-width: 800px) {
@@ -948,3 +948,5 @@ body {
     overflow-wrap: break-word;
   }
 }
+
+
