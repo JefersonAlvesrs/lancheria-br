@@ -84,7 +84,7 @@ Outras informações, como textos dos produtos e telefone de reserva de frango, 
 - **Horários aproximados:** todos os dias a partir das 6h, geralmente até as 18h; sujeitos a alterações conforme o movimento.
 - **WhatsApp:** (54) 99161-6996 — número de teste do responsável pelo protótipo, não apresentado como canal oficial da lancheria.
 - **Reservas de frango assado:** telefone fixo (54) 3222-0183.
-- **Google Maps:** link de pesquisa pelo endereço; a localização exata deve ser conferida antes de divulgação comercial.
+- **Google Maps:** link de pesquisa pelo endereço informado. A localização exata do estabelecimento ainda precisa ser confirmada.
 
 ## 🖼️ Imagens e créditos
 
