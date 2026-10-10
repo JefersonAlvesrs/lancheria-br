@@ -4,6 +4,12 @@ Site institucional estático desenvolvido para apresentar uma lancheria e bar de
 
 O projeto foi desenvolvido como demonstração de frontend para portfólio. As imagens utilizadas são ilustrativas.
 
+## 🌐 Projeto online
+
+Acesse o projeto publicado:
+
+https://jefersonalvesrs.github.io/lancheria-br/
+
 ## 📸 Prévia do projeto
 
 ### Desktop
@@ -99,17 +105,6 @@ Antes de usar o site como representação comercial definitiva, recomenda-se sub
 O layout foi adaptado para diferentes tamanhos de tela, incluindo menu mobile, organização vertical dos cartões e ajustes nas seções de bebidas e apresentação. Também foi corrigida a navegação de retorno ao topo.
 
 O projeto utiliza HTML semântico e alguns recursos básicos de acessibilidade, mas isso não substitui uma auditoria completa nem testes em dispositivos reais.
-
-## 🌐 Publicação
-
-O site pode ser hospedado gratuitamente no **GitHub Pages**, pois é composto apenas de HTML, CSS, JavaScript e imagens locais.
-
-Para publicar ou atualizar uma cópia:
-
-1. Envie os arquivos para um repositório do GitHub.
-2. Em **Settings → Pages**, selecione **Deploy from a branch**.
-3. Escolha a branch `main` e a pasta `/ (root)`.
-4. Salve e aguarde a publicação.
 
 ## 📌 Status
 
